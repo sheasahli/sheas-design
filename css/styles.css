@@ -6,12 +6,12 @@
     font-family: 'Tenor Sans', sans-serif;
 }
 
-body {
+#body {
     color: #302F33;
     background-color: #D9CEC1;
 }
 
-header {
+#header {
    background-color: #FAF6F1;
 }
 
