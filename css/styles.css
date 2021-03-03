@@ -1,24 +1,81 @@
 /* Main Elements */
 
-* {
-    font-family: 'Oxygen', sans-serif;
-    font-family: 'Playfair Display', serif;
-    font-family: 'Tenor Sans', sans-serif;
-}
-
 #body {
     color: #302F33;
-    background-color: #D9CEC1;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Tenor Sans', sans-serif;
+    margin-bottom: 20px;
 }
 
 #header {
    background-color: #FAF6F1;
 }
 
+h1,
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+/* ----- INTRO ----- */
+
+#intro {
+    background-color: #D9CEC1;
+}
+
+.hi {
+    margin-left: 15%;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.name {
+    margin-left: 42%;
+    margin-bottom: 0;
+    font-family: 'Tenor Sans', sans-serif;
+}
 
 .main-photo {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-    max-width: 60vw;
+    max-width: 60%;
 }
 
+.tag-line {
+    font-size: 0.95em;
+
+}
+
+/* ----- About Me ----- */
+
+#about-me {
+    background-color: #FAF6F1; 
+}
+
+/* ----- Skills ----- */
+
+#skills {
+    background-color: #C6A47A;
+}
+
+/* ----- Portfolio ----- */
+
+#portfolio {
+    background-color: #FAF6F1;
+}
+
+.project {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* ----- Connect ----- */
+
+#contact,
+footer {
+    background-color: #302F33;
+    color:#FAF6F1;
+}
