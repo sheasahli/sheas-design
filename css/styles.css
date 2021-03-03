@@ -59,6 +59,11 @@ p {
 
 #skills {
     background-color: #C6A47A;
+    color:#FAF6F1;
+}
+
+.skillset {
+    color:#302F33;
 }
 
 /* ----- Portfolio ----- */
