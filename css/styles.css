@@ -135,6 +135,11 @@ p {
 
 .project-link {
     text-decoration: none;
+    color:#302F33;
+}
+
+.project-link:visited {
+    color:#302F33;
 }
 
 
