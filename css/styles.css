@@ -66,6 +66,7 @@ p {
     border-radius: 3px;
     padding:8%;
     max-width: 500px;
+    color: #FCFCFB;
 }
 
 .sift-photo {
@@ -130,6 +131,10 @@ p {
 .project-title {
     font-size: 1.15em;
     text-transform: uppercase;
+}
+
+.project-link {
+    text-decoration: none;
 }
 
 
