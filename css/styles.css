@@ -46,7 +46,7 @@ p {
 .main-photo {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-    width: 100%;
+    width: 125px;
     max-width: 200px;
     height: auto;
 }
