@@ -1,5 +1,10 @@
 /* Main Elements */
 
+html {
+    height: 100%;
+    max-width:100%;
+}
+
 #body {
     color: #302F33;
     font-family: 'Oxygen', sans-serif;
@@ -41,7 +46,9 @@ p {
 .main-photo {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-    max-width: 60%;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
 }
 
 .tag-line {
@@ -125,6 +132,14 @@ footer {
 
 #mail {
     width: 60px;
+    display:block;
+    margin: 0 auto;
+}
+
+.linkedin-icon {
+    fill:#FAF6F1;
+    width: 40px;
+    height: 40px;
     display:block;
     margin: 0 auto;
 }
