@@ -122,3 +122,9 @@ footer {
     background-color: #302F33;
     color:#FAF6F1;
 }
+
+#mail {
+    width: 60px;
+    display:block;
+    margin: 0 auto;
+}
