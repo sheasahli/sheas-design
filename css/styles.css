@@ -13,7 +13,7 @@ html {
 }
 
 #header {
-   background-color: #FAF6F1;
+   background-color:#D9CEC1;
 }
 
 h1,
@@ -28,7 +28,7 @@ p {
 /* ----- INTRO ----- */
 
 #intro {
-    background-color: #D9CEC1;
+    background-color: #FAF6F1; 
 }
 
 .hi {
@@ -46,9 +46,8 @@ p {
 .main-photo {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-    width: 100%;
-    max-width: 60%;
-    height: auto;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
 }
 
 .tag-line {
@@ -62,18 +61,24 @@ p {
     background-color: #FAF6F1; 
 }
 
+.about-desc {
+    background-color:#C6A47A;
+    border-radius: 3px;
+    padding:8%;
+    max-width: 500px;
+}
+
 .sift-photo {
     width: 80%;
     height: auto;
-    max-width: 800px;
-    left: 100px;
+    max-width: 450px;
+
 }
 
 /* ----- Skills ----- */
 
 #skills {
-    background-color: #C6A47A;
-    color:#FAF6F1;
+    background-color: #D9CEC1;
 }
 
 .skillset {
