@@ -159,11 +159,14 @@ footer {
 }
 
 .linkedin-icon {
-    fill:#FAF6F1;
     width: 40px;
     height: 40px;
     display:block;
     margin: 0 auto;
+}
+
+.linkedin-path {
+    fill:#FAF6F1;
 }
 
 /* ----- Media Queries ----- */
