@@ -32,15 +32,11 @@ p {
 }
 
 .hi {
-    margin-left: 15%;
     font-size: 2em;
-    margin-bottom: 0;
 }
 
 .name {
-    margin-left: 42%;
-    margin-bottom: 0;
-    font-family: 'Tenor Sans', sans-serif;
+    font-size: 2em;
 }
 
 .main-photo {
@@ -57,23 +53,27 @@ p {
 
 /* ----- About Me ----- */
 
-#about-me {
+#about {
     background-color: #FCFCFB; 
 }
 
+.about-me {
+    font-size: 1.6em;
+}
+
 .about-desc {
+    display:block;
     background-color:#C6A47A;
-    border-radius: 3px;
     padding:8%;
-    max-width: 500px;
     color: #FCFCFB;
+    font-size: 1em;
 }
 
 .sift-photo {
-    width: 80%;
+    width: 100%;
     height: auto;
-    max-width: 450px;
-
+    border-bottom: 3px;
+    max-width: 550px;
 }
 
 /* ----- Skills ----- */
@@ -165,3 +165,4 @@ footer {
     display:block;
     margin: 0 auto;
 }
+
