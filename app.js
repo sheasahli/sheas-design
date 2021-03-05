@@ -1,7 +1,5 @@
-const workTogetherMessage = getElementById('inquire');
+const workTogetherMessage = getElementById('mail');
 
 workTogetherMessage.addEventListener('click', (e) => {
-    overlay.className = 'email-send';
-    overlay.style.display = 'flex';
-    document.querySelector('h2').textContent = "Thanks for reaching out! Look forward to chatting soon!";
+    alert('Thanks for reaching out! Look forward to connecting soon!');
 });
