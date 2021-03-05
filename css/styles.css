@@ -166,3 +166,11 @@ footer {
     margin: 0 auto;
 }
 
+/* ----- Media Queries ----- */
+
+@media (min-width: 1000px) {
+
+    #about-desc {
+        font-size: 1.5em;
+    }
+}
